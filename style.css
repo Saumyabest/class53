@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+    margin-left :30px
+}
+
+.header * {
+    border :solid
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border:rgb(0,0,0);
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+body
+{background-color:rgb(46, 44, 46);
+}
+body
+{
+    border:rgb(0,0,2)
+}
+a:link{
+color : white
+}
+a:visited{
+color : white
+}
+.menu{
+    margin-right :30px 
+}
+.menu a{
+    margin-left :5px
+}
